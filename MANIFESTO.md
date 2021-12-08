@@ -4,7 +4,7 @@ SoonLabs is a collaboration between dedicated professionals, skilled in navigati
 
 Our current “impossible” is <span style="text-decoration:underline;">building a more equitable world through decentralization</span>. A world where centralized systems have NOT concentrated society’s influence, power and wealth into the hands of an infinitesimally small number of individuals and organizations. 
 
-Decentralization will enable us to avoid cronyism and chaos. Where we are, what we’ve done, and how we’re SEEN is based on merit not image, value not celebrity. 
+Decentralization will enable us to avoid cronyism and chaos. Where we are what we’ve done, and how we’re SEEN is based on merit not image, value not celebrity. 
 
 Like the DAOs we create, we believe that contributions should be judged without bias, blind to color, class, and creed, where every vote counts, where “we” is stronger than “me”, and organizations are equal and flat because that’s the way they should be. 
 
