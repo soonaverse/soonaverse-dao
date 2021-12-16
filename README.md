@@ -1,7 +1,7 @@
 [![SoonLabs](https://badgen.net/discord/online-members/eYy9Ru9qRd)](https://discord.gg/eYy9Ru9qRd)
 
 # About
-The Soonaverse (soonaverse.com) is a decentralized platform for communities, enabling the seamless creation, management, and interoperability of DAOs.
+[The Soonaverse] (https://soonaverse.com/) is a decentralized platform for communities, enabling the seamless creation, management, and interoperability of DAOs.
 
 DAO-on-Demand (DoD) enables the “one-click” setup of DAOs and provides components that simplify complex DAO operations through an integrated set of feeless core modules. This includes the Secure Feeless Voting module, the first feeless, on-chain voting system in the industry. The Soonaverse also includes 2 innovative and feature-enhancing service modules; the Token LaunchPad and the Reputation Station.
 
