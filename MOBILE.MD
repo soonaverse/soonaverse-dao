@@ -10,8 +10,8 @@ For full information on these issues please refer to this list
 [Mobile Release Fixes](https://github.com/soonlabs/soonaverse-dao/milestone/3?closed=1)
 
 
-## Android Instructions
+## Android Installation Instructions
 ![image](https://user-images.githubusercontent.com/44786846/149597191-a1a769bb-9884-4c8f-98c6-b4a5a170287a.png)
 
 
-## iPhone Instructions
+## iPhone Installation Instructions
