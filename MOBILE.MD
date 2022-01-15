@@ -4,7 +4,7 @@ Mobile environments with the same look and feel.
 Metamask inegration for Mobile is necessary and instructions are below to import your existing credentials from the Desktop Metamask to the mobile version.
 
 ## Android Installation Instructions
-![image](https://user-images.githubusercontent.com/44786846/149600935-bbde89a3-6c48-4a6e-b6ed-e1a6e7b04885.png)
+![image](https://user-images.githubusercontent.com/44786846/149601004-8c7629c7-6fa2-40c8-b121-b6272b690008.png)
 
 ## iPhone Installation Instructions
 ![image](https://user-images.githubusercontent.com/44786846/149600886-f18f40e8-f294-4e7a-814f-b594b6cb37f2.png)
