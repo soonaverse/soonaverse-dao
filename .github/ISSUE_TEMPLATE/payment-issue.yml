@@ -46,6 +46,7 @@ body:
       options:
         - I made a purchase outside of the time window and did not get a refund.
         - I made a purchase with an incorrect amount and did not get a refund.
+        - I made a purchase and did not receive an NFT nor a refund.
         - I sold and NFT and did not get a payment or royalties.
         - I validated an address and did not get a refund
         - Other (Please describe in comments)
