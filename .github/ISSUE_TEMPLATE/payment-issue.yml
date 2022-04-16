@@ -12,7 +12,7 @@ body:
     attributes:
       label: Discord Name
       description: Enter your Discord Name
-      placeholder: ex. @discord#001
+      placeholder: "@discord#001"
     validations:
       required: true
   - type: input
@@ -20,7 +20,7 @@ body:
     attributes:
       label: Soonaverse Profile Id
       description: Enter your Soonaverse Profile Id (Metamask id that begins with 0x....)
-      placeholder: 0x9fff9d411bf6ec5362d4fcf1a857e03e1faad49a
+      placeholder: "0x9fff9d411bf6ec5362d4fcf1a857e03e1faad49a"
     validations:
       required: true
   - type: dropdown
@@ -55,7 +55,7 @@ body:
     attributes:
       label: Payment Sent to Address
       description: IOTA address where you sent the payment to ( This was given to you on the Soonaverse payment window )
-      placeholder: iota1qq423wmms9s23ey6vz3dessup6x3xckt2yfw0qp52860hrpr4zl37cgdg5l
+      placeholder: "iota1qq423wmms9s23ey6vz3dessup6x3xckt2yfw0qp52860hrpr4zl37cgdg5l"
     validations:
       required: false
   - type: input
@@ -63,7 +63,7 @@ body:
     attributes:
       label: Payment Message Id
       description: Please enter the message id for the payment. This can be found in Firefly by clicking on the transaction and then copy icon nect to the message id.
-      placeholder: 040285bbf5277fee9bd152d14f985adb6aea92fb60537a2556817b4e3f698733
+      placeholder: "040285bbf5277fee9bd152d14f985adb6aea92fb60537a2556817b4e3f698733"
     validations:
       required: false
   - type: input
@@ -71,7 +71,7 @@ body:
     attributes:
       label: NFT Id
       description: Enter the specific NFT Id you were trying to purchase if known
-      placeholder: 0xddd34c7a1e9606196b082db92ae64ce1540aa197
+      placeholder: "0xddd34c7a1e9606196b082db92ae64ce1540aa197"
     validations:
       required: false
   - type: input
@@ -79,7 +79,7 @@ body:
     attributes:
       label: NFT Collection Id
       description: Enter the specific NFT Collection Id you were trying to purchase from if known
-      placeholder: 0xddd34c7a1e9606196b082db92ae64ce1540aa197
+      placeholder: "0xddd34c7a1e9606196b082db92ae64ce1540aa197"
     validations:
       required: false
   - type: textarea
