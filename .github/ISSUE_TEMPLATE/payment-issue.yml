@@ -1,6 +1,6 @@
 name: Payment Issue
 description: File a payment issue report.
-title: "Payment Issue"
+title: "[Payment Issue]: "
 
 body:
   - type: markdown
