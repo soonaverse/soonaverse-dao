@@ -34,20 +34,40 @@ body:
         - Purchase NFT from Member - Auction
         - Sold NFT - Fixed Price
         - Sold NFT - Auction
+        - Validated an address for a Space or Member
         - Other (Please describe in comments)
     validations:
       required: true
   - type: dropdown
+    id: problem
+    attributes:
+      label: Payment Problem
+      description: What best describes your payment problem?
+      options:
+        - I made a purchase outside of the time window and did not get a refund.
+        - I made a purchase with an incorrect amount and did not get a refund.
+        - I sold and NFT and did not get a payment or royalties.
+        - I validated an address and did not get a refund
+        - Other (Please describe in comments)
+    validations:
+      required: true      
+  - type: dropdown
+    id: wallet
+    attributes:
+      label: Wallet Type
+      description: What wallet software did you use ?
+      options:
+        - FireFly
+        - TanglePay
+        - Other (Please describe in comments)
+    validations:
+      required: true      
+  - type: input
     id: version
     attributes:
-      label: FireFly Version
+      label: Wallet Version
       description: What version of FireFly Wallet Software are you running?
-      options:
-        - Earlier than 1.4.1
-        - 1.4.1
-        - 1.4.2
-        - Later then 1.4.2
-        - Other (Please describe in comments)
+      placeholder: "1.4.2"
     validations:
       required: true
   - type: input
