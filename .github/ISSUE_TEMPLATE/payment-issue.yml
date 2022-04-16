@@ -1,0 +1,90 @@
+name: Payment Issue
+description: File a payment issue report.
+title: "Payment Issue"
+
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following information so we can properly investigate a payment or refund issue.
+  - type: input
+    id: discord-name
+    attributes:
+      label: Discord Name
+      description: Enter your Discord Name
+      placeholder: ex. @discord#001
+    validations:
+      required: true
+  - type: input
+    id: profile-id
+    attributes:
+      label: Soonaverse Profile Id
+      description: Enter your Soonaverse Profile Id (Metamask id that begins with 0x....)
+      placeholder: 0x9fff9d411bf6ec5362d4fcf1a857e03e1faad49a
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: Payment Action
+      description: What payment action did you attempt and have issues with?
+      options:
+        - Purchase NFT from Collection
+        - Purchase NFT from Member - Fixed Price
+        - Purchase NFT from Member - Auction
+        - Sold NFT - Fixed Price
+        - Sold NFT - Auction
+        - Other (Please describe in comments)
+    validations:
+      required: true
+  - type: dropdown
+    id: version
+    attributes:
+      label: FireFly Version
+      description: What version of FireFly Wallet Software are you running?
+      options:
+        - Earlier than 1.4.1
+        - 1.4.1
+        - 1.4.2
+        - Later then 1.4.2
+        - Other (Please describe in comments)
+    validations:
+      required: true
+  - type: input
+    id: sent-address
+    attributes:
+      label: Payment Sent to Address
+      description: IOTA address where you sent the payment to ( This was given to you on the Soonaverse payment window )
+      placeholder: iota1qq423wmms9s23ey6vz3dessup6x3xckt2yfw0qp52860hrpr4zl37cgdg5l
+    validations:
+      required: false
+  - type: input
+    id: message-id
+    attributes:
+      label: Payment Message Id
+      description: Please enter the message id for the payment. This can be found in Firefly by clicking on the transaction and then copy icon nect to the message id.
+      placeholder: 040285bbf5277fee9bd152d14f985adb6aea92fb60537a2556817b4e3f698733
+    validations:
+      required: false
+  - type: input
+    id: nft-id
+    attributes:
+      label: NFT Id
+      description: Enter the specific NFT Id you were trying to purchase if known
+      placeholder: 0xddd34c7a1e9606196b082db92ae64ce1540aa197
+    validations:
+      required: false
+  - type: input
+    id: nft-collection-id
+    attributes:
+      label: NFT Collection Id
+      description: Enter the specific NFT Collection Id you were trying to purchase from if known
+      placeholder: 0xddd34c7a1e9606196b082db92ae64ce1540aa197
+    validations:
+      required: false
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments
+      description: Please provide any other detail that will help us research the payment issue. If you entered "Other" for any dropdowns above please enter details here.
+      render: shell
