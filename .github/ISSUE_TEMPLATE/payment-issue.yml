@@ -1,7 +1,7 @@
 name: Payment Issue
 description: File a payment issue report.
 title: "[Payment Issue]: "
-
+labels: ["payment issue"]
 body:
   - type: markdown
     attributes:
@@ -56,6 +56,14 @@ body:
       label: Payment Sent to Address
       description: IOTA address where you sent the payment to ( This was given to you on the Soonaverse payment window )
       placeholder: "iota1qq423wmms9s23ey6vz3dessup6x3xckt2yfw0qp52860hrpr4zl37cgdg5l"
+    validations:
+      required: false
+  - type: input
+    id: amount-sent
+    attributes:
+      label: Amount Sent (Please include unit Mi/Gi)
+      description: Amount of IOTA sent to address or involved in the transaction
+      placeholder: 10 Mi
     validations:
       required: false
   - type: input
