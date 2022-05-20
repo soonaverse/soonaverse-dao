@@ -48,8 +48,8 @@ body:
       label: Have you already done a public sale?
       description: Have your tokens already been sold outside of the Soonaverse?
       options:
-        - Yes
-        - No
+        - "Yes"
+        - "No"
     validations:
       required: true
   - type: textarea
