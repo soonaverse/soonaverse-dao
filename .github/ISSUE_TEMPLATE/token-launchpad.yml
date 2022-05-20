@@ -42,6 +42,16 @@ body:
       placeholder: "Name"
     validations:
       required: true
+  - type: dropdown
+    id: tlp-sale
+    attributes:
+      label: Have you already done a public sale?
+      description: Have your tokens already been sold outside of the Soonaverse?
+      options:
+        - Yes
+        - No
+    validations:
+      required: true
   - type: textarea
     id: other-info
     attributes:
