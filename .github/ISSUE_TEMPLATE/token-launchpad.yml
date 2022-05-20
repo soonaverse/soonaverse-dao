@@ -1,0 +1,50 @@
+name: Token Launchpad Form
+description: Information needed to Launch a token on the Soonaverse
+title: "[TLP]: "
+labels: ["TLP"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Welcome! Please provide the following information to apply to launch a token on the Soonaverse LaunchPad. Please note that the information you provide to us may be made public in the future in accordance with our data protection policy. If you have previously filled out the application form for your project, please refrain from applying again.
+  - type: input
+    id: tlp-email
+    attributes:
+      label: Email
+      description: Enter your Email Address
+      placeholder: "email@address.com"
+    validations:
+      required: true
+  - type: input
+    id: tlp-company-name
+    attributes:
+      label: Company Name
+      description: Please enter your company name
+      placeholder: "Company Name"
+    validations:
+      required: true
+  - type: dropdown
+    id: tlp-position
+    attributes:
+      label: Your Position
+      description: Please confirm your position with this Project
+      options:
+        - CEO
+        - Founder / Co-Founder
+        - Other (Please describe in comments)
+    validations:
+      required: true
+  - type: input
+    id: tlp-name
+    attributes:
+      label: Name
+      description: Please enter your name.
+      placeholder: "Name"
+    validations:
+      required: true
+  - type: textarea
+    id: other-info
+    attributes:
+      label: Files and other information
+      description: Please provide links to any other information. If you entered "Other" for any dropdowns above please enter details here.
+      render: shell
