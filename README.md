@@ -11,11 +11,14 @@ DAO-on-Demand (DoD) enables the “one-click” setup of DAOs and provides compo
 - DAO on Demand
 - Secure Feeless Voting
 - Reputation Station (Lite)
+- NFT MarketPlace
 
-***Implemented Soon***
+**Service Modules**
 - Token Launchpad
-- Discussion Forum
-- Treasury Management
+- Token Trading
+
+***Thirdparty libs***
+- [Soonverse NFT bot](https://github.com/legolars1337/Soonaverse-NFT-Bot)
 
 ## Contribute
 1. [Discussion Forum](https://github.com/soonlabs/soonaverse-dao/discussions) - The discussion forum on ideas, Q&A and more.
