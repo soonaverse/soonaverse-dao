@@ -20,6 +20,13 @@ DAO-on-Demand (DoD) enables the “one-click” setup of DAOs and provides compo
 ***Thirdparty libs***
 - [Soonverse NFT bot](https://github.com/legolars1337/Soonaverse-NFT-Bot)
 
+## Current Soon Committee
+- @adam_unchained
+- @DaveRL6
+- @iotaben
+- @shonuff
+- @TangleAccountant
+
 ## Contribute
 1. [Discussion Forum](https://github.com/soonlabs/soonaverse-dao/discussions) - The discussion forum on ideas, Q&A and more.
 2. [Issues](https://github.com/soonlabs/soonaverse-dao/issues) - Current items in our backlog. Use [Zenhub](https://www.zenhub.com) to see actual progress.
