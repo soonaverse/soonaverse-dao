@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Welcome! Please provide the following information to apply to launch a token on the Soonaverse LaunchPad or Token Exchange. Please note that the information you provide to us may be made public in the future in accordance with our data protection policy. If you have previously filled out the application form for your project, please refrain from applying again.
+        Welcome! Please provide the following information to apply to launch a token on the Soonaverse LaunchPad. Please note that the information you are providing here is in a public repository. Do not disclose information in this form you would like to keep private. All information used to verify your identity is privately held by a 3rd part vendor. We do not see or retain that information. If you have previously filled out the application form for your project, please refrain from applying again.
   - type: input
     id: tlp-email
     attributes:
