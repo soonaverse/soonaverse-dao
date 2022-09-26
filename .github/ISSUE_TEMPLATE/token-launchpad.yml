@@ -24,13 +24,13 @@ body:
     validations:
       required: true
   - type: input
-  id: tlp-token-link
-  attributes:
+    id: tlp-token-link
+    attributes:
     label: Token Link
     description: Please fill up link for created token on Soonaverse
     placeholder: "Soonaverse Token URL"
-  validations:
-    required: true
+    validations:
+      required: true
   - type: dropdown
     id: tlp-position
     attributes:
