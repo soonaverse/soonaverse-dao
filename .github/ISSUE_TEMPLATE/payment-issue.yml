@@ -34,6 +34,7 @@ body:
         - Purchase NFT from Member - Auction
         - Sold NFT - Fixed Price
         - Sold NFT - Auction
+        - Staked Token
         - Validated an address for a Space or Member
         - Other (Please describe in comments)
     validations:
@@ -49,6 +50,8 @@ body:
         - I made a purchase and did not receive an NFT nor a refund.
         - I sold and NFT and did not get a payment or royalties.
         - I validated an address and did not get a refund
+        - I staked a token and do not see it in my wallet
+        - I staked a token and I had an error (describe in comments)
         - Other (Please describe in comments)
     validations:
       required: true      
@@ -75,8 +78,8 @@ body:
     id: sent-address
     attributes:
       label: Payment Sent to Address
-      description: IOTA address where you sent the payment to ( This was given to you on the Soonaverse payment window )
-      placeholder: "iota1qq423wmms9s23ey6vz3dessup6x3xckt2yfw0qp52860hrpr4zl37cgdg5l"
+      description: IOTA or Shimmer (SMR) address where you sent the payment to ( This was given to you on the Soonaverse payment window )
+      placeholder: "address that begins with iota1... or smr1..."
     validations:
       required: false
   - type: input
