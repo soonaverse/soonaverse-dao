@@ -34,6 +34,17 @@ body:
         - Staking
     validations:
       required: true
+  - type: dropdown
+    id: system
+    attributes:
+      label: Transaction Source
+      description: How were the tokens being transferred?
+      options:
+        - Token Launchpad
+        - Token Exchange
+        - Staking Reward
+    validations:
+      required: true
   - type: input
     id: problem
     attributes:
