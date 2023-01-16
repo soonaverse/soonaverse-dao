@@ -1,7 +1,7 @@
-name: Payment Issue
-description: File a payment issue report.
-title: "[Payment Issue]: "
-labels: ["Payment Issue"]
+name: NFT Payment Issue
+description: File a payment issue report regarding an NFT.
+title: "[Payment Issue NFT]: "
+labels: ["Payment Issue NFT"]
 body:
   - type: markdown
     attributes:
