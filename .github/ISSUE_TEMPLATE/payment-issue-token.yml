@@ -1,0 +1,93 @@
+name: Token Payment Issue
+description: File a payment issue report regarding Tokens.
+title: "[Payment Issue NFT]: "
+labels: ["Payment Issue NFT"]
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Please fill out the following information so we can properly investigate a payment or refund issue.
+  - type: input
+    id: discord-name
+    attributes:
+      label: Discord Name
+      description: Enter your Discord Name
+      placeholder: "@discord#001"
+    validations:
+      required: true
+  - type: input
+    id: profile-id
+    attributes:
+      label: Soonaverse Profile Id
+      description: Enter your Soonaverse Profile Id (Metamask id that begins with 0x....)
+      placeholder: "0x9fff9d411bf6ec5362d4fcf1a857e03e1faad49a"
+    validations:
+      required: true
+  - type: dropdown
+    id: action
+    attributes:
+      label: Transaction Type
+      description: Were you buying, selling, or staking?
+      options:
+        - Buying
+        - Selling
+        - Staking
+    validations:
+      required: true
+  - type: input
+    id: problem
+    attributes:
+      label: Payment Problem
+      description: What best describes your payment problem?
+      placeholder: "I made a purchase outside of the time window and did not get a refund."
+    validations:
+      required: true      
+  - type: dropdown
+    id: wallet
+    attributes:
+      label: Wallet Type
+      description: What wallet software did you use ?
+      options:
+        - FireFly
+        - TanglePay
+        - Other (Please describe in comments)
+    validations:
+      required: true      
+  - type: input
+    id: version
+    attributes:
+      label: Wallet Version
+      description: What version of FireFly Wallet Software are you running?
+      placeholder: "1.4.2"
+    validations:
+      required: true
+  - type: input
+    id: sent-address
+    attributes:
+      label: Payment Sent to Address
+      description: IOTA or Shimmer (SMR) address where you sent the payment to ( This was given to you on the Soonaverse payment window )
+      placeholder: "address that begins with iota1... or smr1..."
+    validations:
+      required: false
+  - type: input
+    id: amount-sent
+    attributes:
+      label: Amount Sent
+      description: Amount of IOTA sent to address or involved in the transaction. (Please include unit Mi/Gi)
+      placeholder: 10 Mi
+    validations:
+      required: false
+  - type: input
+    id: message-id
+    attributes:
+      label: Payment Message Id
+      description: Please enter the message id for the payment. This can be found in Firefly by clicking on the transaction and then copy icon nect to the message id.
+      placeholder: "040285bbf5277fee9bd152d14f985adb6aea92fb60537a2556817b4e3f698733"
+    validations:
+      required: false
+  - type: textarea
+    id: comments
+    attributes:
+      label: Comments
+      description: Please provide any other detail that will help us research the payment issue. If you entered "Other" for any dropdowns above please enter details here.
+      render: shell
