@@ -1,12 +1,12 @@
 name: Token Payment Issue
 description: File a payment issue report regarding Tokens.
-title: "[Payment Issue NFT]: "
-labels: ["Payment Issue NFT"]
+title: "[Payment Issue Token]: "
+labels: ["Payment Issue Token"]
 body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the following information so we can properly investigate a payment or refund issue regarding Tokens.
+        Please fill out the following information so we can properly investigate a payment or refund issue regarding tokens.
   - type: input
     id: discord-name
     attributes:
