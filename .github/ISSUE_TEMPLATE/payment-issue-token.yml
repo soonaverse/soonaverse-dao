@@ -6,7 +6,7 @@ body:
   - type: markdown
     attributes:
       value: |
-        Please fill out the following information so we can properly investigate a payment or refund issue.
+        Please fill out the following information so we can properly investigate a payment or refund issue regarding Tokens.
   - type: input
     id: discord-name
     attributes:
