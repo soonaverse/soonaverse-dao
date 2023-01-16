@@ -1,5 +1,5 @@
-name: NFT Payment Issue
-description: File a payment issue report regarding an NFT.
+name: Token Payment Issue
+description: File a payment issue report regarding Tokens.
 title: "[Payment Issue NFT]: "
 labels: ["Payment Issue NFT"]
 body:
@@ -27,10 +27,11 @@ body:
     id: action
     attributes:
       label: Transaction Type
-      description: Were you buying or selling an NFT?
+      description: Were you buying, selling, or staking?
       options:
         - Buying
         - Selling
+        - Staking
     validations:
       required: true
   - type: input
@@ -72,7 +73,7 @@ body:
     id: amount-sent
     attributes:
       label: Amount Sent
-      description: Amount of tokens sent to the address or involved in the transaction. (Please include units like Mi/Gi)
+      description: Amount of IOTA sent to address or involved in the transaction. (Please include unit Mi/Gi)
       placeholder: 10 Mi
     validations:
       required: false
@@ -82,22 +83,6 @@ body:
       label: Payment Message Id
       description: Please enter the message id for the payment. This can be found in Firefly by clicking on the transaction and then copy icon nect to the message id.
       placeholder: "040285bbf5277fee9bd152d14f985adb6aea92fb60537a2556817b4e3f698733"
-    validations:
-      required: false
-  - type: input
-    id: nft-id
-    attributes:
-      label: NFT Id
-      description: Enter the specific NFT Id you were trying to purchase if known
-      placeholder: "0xddd34c7a1e9606196b082db92ae64ce1540aa197"
-    validations:
-      required: false
-  - type: input
-    id: nft-collection-id
-    attributes:
-      label: NFT Collection Id
-      description: Enter the specific NFT Collection Id you were trying to purchase from if known
-      placeholder: "0xddd34c7a1e9606196b082db92ae64ce1540aa197"
     validations:
       required: false
   - type: textarea
