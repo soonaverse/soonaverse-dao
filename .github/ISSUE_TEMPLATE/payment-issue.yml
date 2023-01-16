@@ -26,33 +26,20 @@ body:
   - type: dropdown
     id: action
     attributes:
-      label: Payment Action
-      description: What payment action did you attempt and have issues with?
+      label: Transaction Type
+      description: Were you buying or selling an NFT?
       options:
-        - Purchase NFT from Collection
-        - Purchase NFT from Member - Fixed Price
+        - Buying
+        - Selling
         - Purchase NFT from Member - Auction
-        - Sold NFT - Fixed Price
-        - Sold NFT - Auction
-        - Staked Token
-        - Validated an address for a Space or Member
-        - Other (Please describe in comments)
     validations:
       required: true
-  - type: dropdown
+  - type: input
     id: problem
     attributes:
       label: Payment Problem
       description: What best describes your payment problem?
-      options:
-        - I made a purchase outside of the time window and did not get a refund.
-        - I made a purchase with an incorrect amount and did not get a refund.
-        - I made a purchase and did not receive an NFT nor a refund.
-        - I sold and NFT and did not get a payment or royalties.
-        - I validated an address and did not get a refund
-        - I staked a token and do not see it in my wallet
-        - I staked a token and I had an error (describe in comments)
-        - Other (Please describe in comments)
+      placeholder: "I made a purchase outside of the time window and did not get a refund."
     validations:
       required: true      
   - type: dropdown
