@@ -31,7 +31,6 @@ body:
       options:
         - Buying
         - Selling
-        - Purchase NFT from Member - Auction
     validations:
       required: true
   - type: input
