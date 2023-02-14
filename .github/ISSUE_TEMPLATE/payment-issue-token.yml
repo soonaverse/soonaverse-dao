@@ -84,7 +84,7 @@ body:
     id: amount-sent
     attributes:
       label: Amount Sent
-      description: Amount of IOTA sent to the address or involved in the transaction. (Please include units like Mi/Gi)
+      description: Amount of tokens sent to the address or involved in the transaction. (Please include units like Mi/Gi)
       placeholder: 10 Mi
     validations:
       required: false
