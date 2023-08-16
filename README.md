@@ -1,4 +1,6 @@
-[![SoonLabs](https://badgen.net/discord/online-members/eYy9Ru9qRd)](https://discord.gg/eYy9Ru9qRd)
+# This repository has been merged into https://github.com/soonaverse/app repository!!!
+
+# DO NOT USE
 
 # About
 [The Soonaverse](https://soonaverse.com/) is a decentralized platform for communities, enabling the seamless creation, management, and interoperability of DAOs.
